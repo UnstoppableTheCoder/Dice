@@ -9,7 +9,7 @@ if (randomNumber1 === randomNumber2) {
 } else if (randomNumber1 > randomNumber2) {
     document.querySelector("h2").textContent = "🚩Player1 wins";
 } else {
-    document.querySelector("h2").textContent = "🚩Player2 wins";
+    document.querySelector("h2").textContent = "Player2 wins🚩";
 }
 
 var refreshButton = document.getElementById('refreshButton');
